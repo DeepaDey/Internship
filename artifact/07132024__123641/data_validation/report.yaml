@@ -1,0 +1,216 @@
+data_drift_within_test_dataset:
+  AGE:
+    pvalues: 0.9966056268589896
+    same_distribution: true
+  BILL_AMT1:
+    pvalues: 0.9561467704297958
+    same_distribution: true
+  BILL_AMT2:
+    pvalues: 0.6478431152159323
+    same_distribution: true
+  BILL_AMT3:
+    pvalues: 0.8840924550014404
+    same_distribution: true
+  BILL_AMT4:
+    pvalues: 0.7190366146906679
+    same_distribution: true
+  BILL_AMT5:
+    pvalues: 0.9212822558799435
+    same_distribution: true
+  BILL_AMT6:
+    pvalues: 0.987359963663739
+    same_distribution: true
+  EDUCATION:
+    pvalues: 0.81277737766701
+    same_distribution: true
+  ID:
+    pvalues: 0.7948532540027241
+    same_distribution: true
+  LIMIT_BAL:
+    pvalues: 0.68358942905852
+    same_distribution: true
+  MARRIAGE:
+    pvalues: 0.9999999999997339
+    same_distribution: true
+  PAY_0:
+    pvalues: 0.9992588342656009
+    same_distribution: true
+  PAY_2:
+    pvalues: 0.9999954382110537
+    same_distribution: true
+  PAY_3:
+    pvalues: 0.999999999992157
+    same_distribution: true
+  PAY_4:
+    pvalues: 0.9998939755433085
+    same_distribution: true
+  PAY_5:
+    pvalues: 0.9999999999855784
+    same_distribution: true
+  PAY_6:
+    pvalues: 0.995693780315643
+    same_distribution: true
+  PAY_AMT1:
+    pvalues: 0.29684584899987276
+    same_distribution: true
+  PAY_AMT2:
+    pvalues: 0.9432138590262351
+    same_distribution: true
+  PAY_AMT3:
+    pvalues: 0.9641607563535305
+    same_distribution: true
+  PAY_AMT4:
+    pvalues: 0.9670845909583946
+    same_distribution: true
+  PAY_AMT5:
+    pvalues: 0.7072759676361691
+    same_distribution: true
+  PAY_AMT6:
+    pvalues: 0.9471137328923727
+    same_distribution: true
+  SEX:
+    pvalues: 0.4930335652878546
+    same_distribution: true
+  default.payment.next.month:
+    pvalues: 1.0
+    same_distribution: true
+data_drift_within_train_dataset:
+  AGE:
+    pvalues: 1.0
+    same_distribution: true
+  BILL_AMT1:
+    pvalues: 0.9999999999930306
+    same_distribution: true
+  BILL_AMT2:
+    pvalues: 0.9999892569117326
+    same_distribution: true
+  BILL_AMT3:
+    pvalues: 0.9999999955530047
+    same_distribution: true
+  BILL_AMT4:
+    pvalues: 0.9999979227290102
+    same_distribution: true
+  BILL_AMT5:
+    pvalues: 0.9999999996684725
+    same_distribution: true
+  BILL_AMT6:
+    pvalues: 0.9999999999999978
+    same_distribution: true
+  EDUCATION:
+    pvalues: 0.9999998814279736
+    same_distribution: true
+  ID:
+    pvalues: 0.9999997758356778
+    same_distribution: true
+  LIMIT_BAL:
+    pvalues: 0.999995096479382
+    same_distribution: true
+  MARRIAGE:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_0:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_2:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_3:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_4:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_5:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_6:
+    pvalues: 1.0
+    same_distribution: true
+  PAY_AMT1:
+    pvalues: 0.9973083124873405
+    same_distribution: true
+  PAY_AMT2:
+    pvalues: 0.9999999999619196
+    same_distribution: true
+  PAY_AMT3:
+    pvalues: 0.9999999999981353
+    same_distribution: true
+  PAY_AMT4:
+    pvalues: 0.9999999999989286
+    same_distribution: true
+  PAY_AMT5:
+    pvalues: 0.9999972095479581
+    same_distribution: true
+  PAY_AMT6:
+    pvalues: 0.999999999976168
+    same_distribution: true
+  SEX:
+    pvalues: 0.999827695377906
+    same_distribution: true
+  default.payment.next.month:
+    pvalues: 1.0
+    same_distribution: true
+missing_values_within_base_dataset: !!python/object/apply:pandas.core.indexes.base._new_Index
+- &id001 !!python/name:pandas.core.indexes.base.Index ''
+- data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - &id002 !!python/name:numpy.ndarray ''
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 0
+    - &id003 !!python/object/apply:numpy.dtype
+      args:
+      - O8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - '|'
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 63
+    - false
+    - []
+  name: null
+missing_values_within_test_dataset: !!python/object/apply:pandas.core.indexes.base._new_Index
+- *id001
+- data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id002
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 0
+    - *id003
+    - false
+    - []
+  name: null
+missing_values_within_train_dataset: !!python/object/apply:pandas.core.indexes.base._new_Index
+- *id001
+- data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id002
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 0
+    - *id003
+    - false
+    - []
+  name: null

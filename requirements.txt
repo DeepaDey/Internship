@@ -1,4 +1,8 @@
 pandas
 numpy
 seaborn
+pymongo
+python-dotenv
+scikit-learn
+PyYAML
 -e .

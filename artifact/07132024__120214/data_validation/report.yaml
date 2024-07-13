@@ -1,0 +1,379 @@
+data_drift_within_test_dataset:
+  AGE:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      Ws7LezHk7z8=
+    same_distribution: true
+  BILL_AMT1:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      94ClHMGY7j8=
+    same_distribution: true
+  BILL_AMT2:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      bFEZfCG75D8=
+    same_distribution: true
+  BILL_AMT3:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      pOObQnxK7D8=
+    same_distribution: true
+  BILL_AMT4:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      liIXE1kC5z8=
+    same_distribution: true
+  BILL_AMT5:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      d3bs7CR77T8=
+    same_distribution: true
+  BILL_AMT6:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      oxgq7HOY7z8=
+    same_distribution: true
+  EDUCATION:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NkUAtEUC6j8=
+    same_distribution: true
+  ID:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      vfJhF3Bv6T8=
+    same_distribution: true
+  LIMIT_BAL:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MlM28Pbf5T8=
+    same_distribution: true
+  MARRIAGE:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      o/b/////7z8=
+    same_distribution: true
+  PAY_0:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      aR2tqe357z8=
+    same_distribution: true
+  PAY_2:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U4Dobvb/7z8=
+    same_distribution: true
+  PAY_3:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Dez+////7z8=
+    same_distribution: true
+  PAY_4:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QKGNpiH/7z8=
+    same_distribution: true
+  PAY_5:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      lgT+////7z8=
+    same_distribution: true
+  PAY_6:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VSnpM7nc7z8=
+    same_distribution: true
+  PAY_AMT1:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      hhlau4X/0j8=
+    same_distribution: true
+  PAY_AMT2:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MNq01M4u7j8=
+    same_distribution: true
+  PAY_AMT3:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TwCUqGfa7j8=
+    same_distribution: true
+  PAY_AMT4:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      DThUYlvy7j8=
+    same_distribution: true
+  PAY_AMT5:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      rM/HNQGi5j8=
+    same_distribution: true
+  PAY_AMT6:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      4q+LdcFO7j8=
+    same_distribution: true
+  SEX:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      pHavp9yN3z8=
+    same_distribution: true
+  default.payment.next.month:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+data_drift_within_train_dataset:
+  AGE:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  BILL_AMT1:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yQr/////7z8=
+    same_distribution: true
+  BILL_AMT2:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BDFZeOn/7z8=
+    same_distribution: true
+  BILL_AMT3:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Q8+c/f//7z8=
+    same_distribution: true
+  BILL_AMT4:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      kQzGpPv/7z8=
+    same_distribution: true
+  BILL_AMT5:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      am/S////7z8=
+    same_distribution: true
+  BILL_AMT6:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      7P//////7z8=
+    same_distribution: true
+  EDUCATION:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      tJVXwP//7z8=
+    same_distribution: true
+  ID:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FBenh///7z8=
+    same_distribution: true
+  LIMIT_BAL:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CEJxt/X/7z8=
+    same_distribution: true
+  MARRIAGE:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_0:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_2:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_3:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_4:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_5:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_6:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+  PAY_AMT1:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ui9FH/Pp7z8=
+    same_distribution: true
+  PAY_AMT2:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      KsT6////7z8=
+    same_distribution: true
+  PAY_AMT3:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZL7/////7z8=
+    same_distribution: true
+  PAY_AMT4:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Ttr/////7z8=
+    same_distribution: true
+  PAY_AMT5:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EDHjJfr/7z8=
+    same_distribution: true
+  PAY_AMT6:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      fLn8////7z8=
+    same_distribution: true
+  SEX:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ng+pppb+7z8=
+    same_distribution: true
+  default.payment.next.month:
+    pvalues: !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAA8D8=
+    same_distribution: true
+missing_values_within_base_dataset: !!python/object/apply:pandas.core.indexes.base._new_Index
+- &id002 !!python/name:pandas.core.indexes.base.Index ''
+- data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - &id003 !!python/name:numpy.ndarray ''
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 0
+    - &id004 !!python/object/apply:numpy.dtype
+      args:
+      - O8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - '|'
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 63
+    - false
+    - []
+  name: null
+missing_values_within_test_dataset: !!python/object/apply:pandas.core.indexes.base._new_Index
+- *id002
+- data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id003
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 0
+    - *id004
+    - false
+    - []
+  name: null
+missing_values_within_train_dataset: !!python/object/apply:pandas.core.indexes.base._new_Index
+- *id002
+- data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id003
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 0
+    - *id004
+    - false
+    - []
+  name: null
