@@ -7,4 +7,5 @@ scikit-learn
 PyYAML
 imblearn
 dill
+xgboost
 -e .

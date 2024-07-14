@@ -5,7 +5,7 @@ import os,sys
 from scipy.stats import ks_2samp
 import pandas as pd
 from src import utils
-#from src.config import TARGET_COLUMN
+from src.config import TARGET_COLUMN
 from typing import Optional
 
 class DataValidation:
@@ -117,7 +117,7 @@ class DataValidation:
             logging.info(f"Drop null values columns from test df ")
             test_df = self.drop_missing_values_columns(df=test_df,report_key_name="missing_values_within_test_dataset")
             
-            exclude_columns = ["default.payment.next.month"]
+            exclude_columns = [TARGET_COLUMN]
             base_df = utils.convert_columns_float(df=base_df, exclude_columns=exclude_columns)
             train_df = utils.convert_columns_float(df=train_df, exclude_columns=exclude_columns)
             test_df = utils.convert_columns_float(df=test_df, exclude_columns=exclude_columns)

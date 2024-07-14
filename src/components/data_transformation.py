@@ -5,11 +5,12 @@ import os,sys
 import pandas as pd
 from src import utils
 from typing import Optional
-from sklearn.preprocessing import Pipeline
+from sklearn.pipeline import Pipeline
 from imblearn.combine import SMOTETomek
 from sklearn.preprocessing import RobustScaler
 from src.config import TARGET_COLUMN
 import numpy as np
+
 
 
 class DataTransformation:
@@ -17,6 +18,7 @@ class DataTransformation:
     def __init__(self,data_transformation_config:config_entity.DataTransformationConfig,
                  data_ingestion_artifact:artifact_entity.DataIngestionArtifact):
         try:
+            logging.info(f"{'>>'*20} Data Transformation {'<<'*20}")
             self.data_transformation_config=data_transformation_config
             self.data_ingestion_artifact=data_ingestion_artifact
         except Exception as e:
@@ -47,6 +49,9 @@ class DataTransformation:
             #selecting target feature for train and test dataframe
             target_feature_train_df = train_df[TARGET_COLUMN]
             target_feature_test_df = test_df[TARGET_COLUMN]
+            
+            target_feature_train_arr = target_feature_train_df
+            target_feature_test_arr = target_feature_test_df
             
             transformation_pipeline = DataTransformation.get_data_transformer_object()
             transformation_pipeline.fit(input_feature_train_df)
