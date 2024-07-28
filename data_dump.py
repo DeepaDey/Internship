@@ -2,8 +2,11 @@ import pymongo
 import pandas as pd
 import json
 from src.config import mongo_client
-
-mongo_client = pymongo.MongoClient("mongodb+srv://Ineuron:Ineuron1@cluster0.bbbhw0k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+#from dotenv import load_dotenv
+#print(f"Loading environment variable from .env file")
+#load_dotenv()
+#Provide the mongodb localhost url to connect python to mongodb.
+#mongo_client = pymongo.MongoClient("mongodb+srv://Ineuron:Ineuron1@cluster0.bbbhw0k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATA_FILE_PATH="D:/internship/mlproject/notebook/UCI_Credit_Card.csv"
 DATABASE_NAME="creditcard"

@@ -8,4 +8,15 @@ PyYAML
 imblearn
 dill
 xgboost
+dnspython
+fastapi
+httptools
+mypy-boto3-s3
+pip-chill
+types-s3transfer
+uvicorn
+watchfiles
+websockets
+wincertstore
+apache-airflow
 -e .
