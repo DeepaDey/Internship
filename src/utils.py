@@ -13,7 +13,7 @@ def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataF
     '''
     Description: This function return collection as dataframe
     *********************************************
-    Param:
+    Params:
     database_name: database name
     collection_name: collection name
     

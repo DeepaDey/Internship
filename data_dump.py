@@ -1,8 +1,9 @@
 import pymongo
 import pandas as pd
 import json
+from src.config import mongo_client
 
-client = pymongo.MongoClient("mongodb+srv://Ineuron:Ineuron1@cluster0.bbbhw0k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongo_client = pymongo.MongoClient("mongodb+srv://Ineuron:Ineuron1@cluster0.bbbhw0k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATA_FILE_PATH="D:/internship/mlproject/notebook/UCI_Credit_Card.csv"
 DATABASE_NAME="creditcard"
@@ -20,5 +21,5 @@ json_record = list(json.loads(df.T.to_json()).values())
 print(json_record[0])
 
 #insert converted json record to mongodb
-client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
+mongo_client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
     

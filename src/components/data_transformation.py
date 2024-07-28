@@ -1,7 +1,7 @@
 from src.entity import artifact_entity,config_entity
 from src.exception import CustomException
 from src.logger import logging
-import os,sys 
+import sys 
 import pandas as pd
 from src import utils
 from typing import Optional
@@ -25,7 +25,7 @@ class DataTransformation:
             raise CustomException(e, sys)
     
     @classmethod    
-    def get_data_transformer_object(cls):
+    def get_data_transformer_object(cls)->Pipeline:
         try:
             robust_scaler = RobustScaler()
             pipeline = Pipeline(steps=[

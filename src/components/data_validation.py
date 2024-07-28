@@ -38,8 +38,9 @@ class DataValidation:
             #selecting column name which contains null values
             logging.info(f"selecting column name which contains null above to {threshold}")
             drop_column_names = null_report[null_report>threshold].index
+            
             logging.info(f"Columns to drop: {list(drop_column_names)}")
-            self.validation_error[report_key_name]=drop_column_names
+            self.validation_error[report_key_name]=list(drop_column_names)
             df.drop(list(drop_column_names),axis=1,inplace=True)
             
             #return None no columns left
@@ -71,6 +72,7 @@ class DataValidation:
     def data_drift(self,base_df:pd.DataFrame,current_df:pd.DataFrame,report_key_name:str):
         try:
             drift_report =dict()
+            
             base_columns = base_df.columns
             current_columns = current_df.columns
             
